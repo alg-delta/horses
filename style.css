@@ -1,0 +1,80 @@
+.menu { list-style: none;
+width: 500px;
+padding: 0;
+margin: 0;}
+.menu a {
+color: darkblue;
+text-decoration: none;
+font-size: 50px;
+background-color: lightblue;
+display: block;
+height: 80px;
+padding: 5px;
+border-bottom: 5px solid black;
+border-left: 10px solid black;
+border-right: 10px solid black;
+border-top: 5px solid black;}
+.menu li { 
+border-left: 15px solid darkblue;}
+.menu a:hover {
+	background-color: white;
+color: darkblue;}
+
+.menu a.activ{
+	background-color: gray;
+color: white;}
+.r:hover {
+transform: scale(1.2)}
+.r {
+transition: all 0.4s;}
+	.t:hover {
+transform: rotate(1turn)}
+.t {
+transition: all 0.4s;}
+	.y:hover {
+transform: scale(1.2)}
+.y {
+transition: all 0.4s;}
+.u:hover {
+transform: rotate(1turn)}
+.u {
+	transition: all 0.4s;
+}
+	
+	.s { float: right;
+	}
+	/* магазин */
+	.men { list-style: none;
+width: 400px;
+padding: 0;
+margin: 0;}
+.men a {
+color: darkblue;
+text-decoration: none;
+font-size: 50px;
+background-color: lightblue;
+display: block;
+height: 80px;
+padding: 5px;
+border-bottom: 5px solid black;
+border-left: 10px solid black;
+border-right: 10px solid black;
+border-top: 5px solid black;}
+.men li { 
+border-left: 15px solid darkblue;}
+.men a:hover {
+	background-color: white;
+color: darkblue;}
+
+.men a.activ{
+	background-color: gray;
+color: white;}
+.na { position: absolute;
+top: 0;
+right: 0;}
+
+body {
+background: url(img/images1.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
